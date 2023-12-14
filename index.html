@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kanit:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./style/fonts.css">
+    <link rel="stylesheet" href="./style/reset.css">
+    <link rel="stylesheet" href="./style/style.css">
+    <title>starwarsfan</title>
+</head>
+<body>
+    
+    <header class="header">
+
+        <div class="container header--inner">
+
+            <a href="#" class="logo">starwars<b style="color: #0f32a4">fan</b></a>   
+            <nav class="menu">
+                <ul class="menu__list">
+                    <li class="menu__list-item">
+                        <a href="" class="menu__list-link">Фильмы</a>
+                    </li>
+                    <li class="menu__list-item">
+                        <a href="" class="menu__list-link">Отзывы</a>
+                    </li>
+                </ul>
+            </nav>
+            <form role="search" class="menu__search">
+                <input type="search" name="search"class="menu__search-input" placeholder="Введите название">
+                <button class="menu__search-button"><img src="./images/search.svg" alt="поиск"></button>
+            </form>
+
+            <button class="light-dark">
+                <img src="./images/sun-svgrepo-com.svg" class="light-svg light-svg--theme" alt="светлая">
+                <img src="./images/moon-svgrepo-com.svg" class="dark-svg" alt="тёмная">
+            </button>
+
+
+        </div>
+
+    </header>
+
+
+    <main class="main">
+
+        <section class="info">
+
+            <div class="container info--inner">
+
+                <div class="poster">
+
+                    <img src="./images/main_banner.jpg" class="poster__img" alt="баннер">
+                    <div class="info__rating">
+                        <button class="like"><img src="./images/like-button-icon.svg" alt="лайк"></button>
+                        <button class="dislike"><img src="./images/dislike-button-icon.svg" alt="дизлайк"></button>
+                        <div class="info__rating-value">10</div>
+                    </div>
+
+                </div>
+
+                <div class="info__content">
+
+                    <div class="info__text">
+                        <h3 class="info__text-title">Звездные Войны Все Части: 1 - 11 Смотреть Онлайн</h3>
+                        <p class="info__text-about">«Звездные войны» – это легендарная космическая сага, которая охватывает огромный период времени и рассказывает зрителям о противостоянии добра и зла, джедаев и ситхов. Главной особенностью эпопеи является то, что длится она больше 10 часов, на протяжении которых космический мир меняется до неузнаваемости.</p>
+                    </div>
+    
+
+                </div>
+
+            </div>
+
+
+
+        </section>
+
+
+        <section class="film">
+
+            <div class="container film--inner">
+                <video width="700px" controls></video> 
+            </div>
+            
+        </section>
+
+
+        <section class="reviews">
+
+            <div class="container reviews--inner"></div>
+
+        </section>
+
+
+    </main>
+
+
+
+    <footer class="footer">
+
+    </footer>
+
+
+
+</body>
+</html>

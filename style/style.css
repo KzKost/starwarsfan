@@ -1,0 +1,152 @@
+
+body {
+    background-color: #282828;
+}
+
+
+.container {
+    max-width: 1280px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 4px;
+    margin: auto;
+    background-color: white;
+}
+
+.header--inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    padding: 10px 0;
+    font-size: 30px;
+    font-family: 'Kanit';
+    font-weight: 600;
+    color: #162150;
+    line-height: normal;
+}
+
+.menu__list {
+    display: flex;
+    gap: 20px;
+    padding-right: 200px;
+}
+
+.menu__list-link {
+    font-size: 15px;
+    color: rgb(13, 13, 13);
+    font-weight: 500;
+    text-transform: uppercase;
+}
+
+.menu__search {
+    position: relative;
+    
+}
+
+
+.menu__search-button img {
+    position: absolute;
+    right: 8px;
+    top: 4px;
+    width: 23px;
+    height: 23px;
+}
+
+.menu__search-input {
+    outline: 0;
+    border: 1px solid black;
+    padding: 7px 25px 7px 7px;
+    box-shadow: 10px;
+}
+
+.menu__search-input:focus {
+    border-color: #0f32a4;
+}
+
+.light-dark {
+    background-color: gainsboro;
+    width: 80px;
+    height: 40px;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.light-svg--theme {
+    background-color: rgb(167, 167, 167);
+    border-radius: 50%;
+}
+
+.light-svg {
+    width: 30px;
+    margin-left: 7px;
+}
+.dark-svg {
+    width: 24px;
+    margin-right: 8px;
+}
+
+
+.info--inner {
+    display: flex;
+    gap: 20px;
+    padding: 50px 10px;
+}
+
+.poster {
+    outline: 1px solid rgb(230, 230, 230);
+}
+
+.poster__img {
+    width: 300px;
+}
+
+.info__rating {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 10px 0;
+}
+
+.info__rating-value {
+    margin-left: auto;
+    margin-right: 10px;
+    font-size: 25px;
+    color: rgb(239, 184, 43);
+    font-family: 'Kanit';
+    font-weight: 400;
+    background-color: rgb(236, 236, 236);
+    border-radius: 50%;
+    padding: 10px;
+}
+
+
+
+.like {
+    width: 40px;
+    margin-left: 10px; 
+}
+
+.like::after {
+    content: '0';
+}
+
+.dislike {
+    width: 40px;
+}
+
+.dislike::after {
+    content: '0';
+}
+
+
+
+.info__text-title {
+    padding-bottom: 15px;
+}
+
+/* .info__text-about {} */
